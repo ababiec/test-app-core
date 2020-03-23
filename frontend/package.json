@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-lib": "ng build test-app-core && node scripts/post-build-lib.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
